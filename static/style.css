@@ -1,0 +1,97 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f6f7fb;
+    margin: none;
+    padding: 40px;
+    display: flex;
+    justify-content: center;
+}
+
+main {
+    background: white;
+    padding: 25px 30px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px #ccc;
+    width: 600px;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+form {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+form input, form button {
+    padding: 10px;
+    font-size: 14px;
+}
+
+form button {
+    background: #007bff;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color c\
+    ,
+    36
+    ,2950 0.3s;
+}
+
+form button:hover {
+    background: #0056b3;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th {
+    background: #007bff;
+    color: white;
+    padding: 10px;
+}
+
+td {
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+}
+/* Esse deu trabalho pra caramba */
+tr:nth-child(even) {
+    background: #f2f2f2;
+}
+.Ferramentas {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding-left: 10px;
+}
+.BtnEditar, .BtnExcluir {
+
+    border: none;
+    color: white;
+    padding: 5px 10px;
+    margin: 0 2px;
+    cursor: pointer;
+    border-radius: 3px;
+    transition: background-color 0.3s;
+}
+.BtnEditar {
+    background-color: #2abb4c;
+}
+.BtnExcluir {
+    background-color: #ff7777;
+}
+.BtnEditar:hover {
+    background-color: #1e8e34;
+}
+.BtnExcluir:hover {
+    background-color: #e64545;
+}
